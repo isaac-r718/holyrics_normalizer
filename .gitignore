@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+build/
+dist/
+.eggs/
+*.egg-info/
+pip-wheel-metadata/
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+ENV/
+
+# Herramientas y configuración local
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.vscode/
+.idea/
+
+# Variables de entorno y secretos locales
+.env
+.env.*
+!.env.example
+
+# Datos locales de canciones: no publicar letras sin autorización
+/canciones/*.txt
+/canciones/**/*.txt
+!/canciones/.gitkeep
+
+# Respaldos y salida antigua
+/canciones_backup/
+/canciones_limpias/
+*_backup/
+reporte.txt
+
+# Archivos temporales
+*.tmp
+*.temp
+~$*
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+Desktop.ini

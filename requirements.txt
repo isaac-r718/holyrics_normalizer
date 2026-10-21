@@ -1,0 +1,3 @@
+# No se requieren dependencias externas de Python.
+# Tkinter suele venir incluido con Python; en algunas distribuciones de Linux
+# se instala por separado mediante el gestor de paquetes del sistema.
