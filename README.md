@@ -53,6 +53,10 @@ está disponible, instálalo con el gestor de paquetes de tu distribución.
 
 ## Uso
 
+### Exportación
+
+Exporta las canciones en masa desde Holyrics en formato .txt a la carpeta /canciones
+
 ### Interfaz gráfica
 
 Ejecuta el programa sin argumentos:
