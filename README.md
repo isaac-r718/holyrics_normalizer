@@ -2,7 +2,7 @@
 
 Herramienta en Python para limpiar y dar formato a letras de canciones para
 **Holyrics**. La aplicación puede ejecutarse con una interfaz gráfica simple o
-desde la línea de comandos.
+desde la línea de comandos, desarrollado de manera asistida con IA (Claude code & Gemini).
 
 ## Características
 
@@ -153,14 +153,11 @@ los derechos necesarios y modificas conscientemente la regla correspondiente en
 ```text
 holyrics_normalizer/
 ├── lyrics_normalizer.py
-├── limpiar_letras.py      # compatibilidad con el nombre anterior
 ├── README.md
 ├── LICENSE
 ├── requirements.txt
 ├── .gitignore
 ├── songs/
-│   └── .gitkeep
-├── canciones/             # legado; se conserva por compatibilidad
 │   └── .gitkeep
 └── songs_backup/          # se crea al ejecutar; no se versiona
 ```
