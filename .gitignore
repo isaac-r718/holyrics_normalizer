@@ -9,13 +9,13 @@ dist/
 *.egg-info/
 pip-wheel-metadata/
 
-# Entornos virtuales
+# Virtual environments
 .venv/
 venv/
 env/
 ENV/
 
-# Herramientas y configuración local
+# Local tooling and editor config
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
@@ -24,28 +24,32 @@ htmlcov/
 .vscode/
 .idea/
 
-# Variables de entorno y secretos locales
+# Local environment variables and secrets
 .env
 .env.*
 !.env.example
 
-# Datos locales de canciones: no publicar letras sin autorización
+# Local song data: do not publish lyrics without authorization
 /canciones/*.txt
 /canciones/**/*.txt
 !/canciones/.gitkeep
+/songs/*.txt
+/songs/**/*.txt
+!/songs/.gitkeep
 
-# Respaldos y salida antigua
+# Backups and legacy outputs
 /canciones_backup/
 /canciones_limpias/
+/songs_backup/
 *_backup/
 reporte.txt
 
-# Archivos temporales
+# Temporary files
 *.tmp
 *.temp
 ~$*
 
-# Archivos del sistema
+# System files
 .DS_Store
 Thumbs.db
 Desktop.ini
