@@ -153,7 +153,7 @@ los derechos necesarios y modificas conscientemente la regla correspondiente en
 ```text
 holyrics_normalizer/
 ├── lyrics_normalizer.py
-├── limpiar_letras.py      # compatibilidad; se mantiene para uso histórico
+├── limpiar_letras.py      # compatibilidad con el nombre anterior
 ├── README.md
 ├── LICENSE
 ├── requirements.txt
